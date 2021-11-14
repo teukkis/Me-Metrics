@@ -21,7 +21,7 @@ import BDI from 'pages/personalData/BDI'
 import DAaS from 'pages/personalData/DAaS'
 
 const App = () => {
- 
+
   return (
     <div>
         <Grid
