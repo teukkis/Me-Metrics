@@ -9,12 +9,12 @@ const TopBarContainer = ({ children, ...props }) => {
   return (
     <Flex __css={styles.container} {...props}>
       <HStack __css={styles.hstack}>
-        {children}
+       
         <Box>
-          skdfjdskjfklda
+        {children}
         </Box>
         <Box>
-          skdfjdskjfklda
+          
         </Box>
       </HStack>
     </Flex>

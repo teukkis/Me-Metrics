@@ -6,7 +6,7 @@ const NavItem = {
       fontFamily: "Ubuntu Mono",
       color: "#dddddd",
       height: '24px',
-      paddingLeft: '15px',
+      paddingLeft: '0px',
       borderRadius: "10px",
       fontSize: "14px",
       fontWeight: "semibold",

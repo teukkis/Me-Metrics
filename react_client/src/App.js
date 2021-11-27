@@ -28,8 +28,7 @@ const App = () => {
           h="100vh"
           w="100vw"
           templateRows="repeat(12, 1fr)"
-          templateColumns="repeat(5, 1fr)"
-          gap={0}
+          templateColumns="repeat(8, 1fr)"
           bgGradient="linear(to-r, gray.100, gray.400)"
         >
           <GridItem rowSpan={12} colSpan={1}>
@@ -38,13 +37,13 @@ const App = () => {
             </Route>
           </GridItem>
 
-          <GridItem rowSpan={1} colSpan={4}>
+          <GridItem bg="blue.500" rowSpan={1} colSpan={7}>
             <Route path='/'>
               <TopBar/>
             </Route>
           </GridItem>
 
-          <GridItem rowSpan={10} colSpan={4}>
+          <GridItem rowSpan={10} colSpan={7} padding="20px">
 
             <Route exact path='/'>
               <Home/>
