@@ -5,8 +5,8 @@ const NavItems = {
     box: {
       height: '80%',
       direction: 'row',
-      marginRight: '35px',
-      marginLeft: '25px',
+      marginRight: '15px',
+      marginLeft: '15px',
     },
     divider: {
       borderBottom: '2px',

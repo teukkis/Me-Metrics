@@ -5,9 +5,9 @@ const TopBarContainer = {
     container: {
       h: '100%',
       textAlign: 'center',
-      w: "99%",
+      w: "100%",
       color: '#000000',
-      p: '5px',
+      p: '10px',
       bgGradient: "linear(to-r, gray.800, gray.900)",
     },
     hstack: {

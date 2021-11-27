@@ -1,12 +1,16 @@
 import TopBarContainer from "components/topBar/topBarContainer"
-import { Text } from "@chakra-ui/react"
+import { Text, useMultiStyleConfig } from "@chakra-ui/react"
 
 
 const TopBar = (props) => {
 
+  const styles = useMultiStyleConfig("AppTitle")
+
   return (
     <TopBarContainer {...props}>
-      <Text>dfsdfsdfdsfsdfds</Text>
+      <Text sx={styles.title} >
+        Me Metrics
+      </Text>
     </TopBarContainer>
   )
 }

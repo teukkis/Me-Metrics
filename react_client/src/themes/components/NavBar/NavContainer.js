@@ -11,7 +11,6 @@ const NavContainer = {
     vstack: {
       w: '100%',
       h: '100%',
-      marginLeft: '10px',
       alignItems: 'stretch'
     },
   }

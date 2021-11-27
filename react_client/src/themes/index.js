@@ -9,7 +9,10 @@ import NavTitle from 'themes/components/NavBar/NavTitle'
 import NavPatientInfoBox from 'themes/components/NavBar/NavPatientInfoBox'
 import NavItems from 'themes/components/NavBar/NavItems'
 import TopBarContainer from 'themes/components/TopBar/TopBarContainer'
-
+import PageHeader from 'themes/components/PageHeader'
+import AppTitle from 'themes/components/AppTitle'
+import PhoneLog from 'themes/components/PhoneLog'
+import CustomUnorderedList from 'themes/components/CustomUnorderedList'
 
 const theme = extendTheme({
   styles,
@@ -22,7 +25,11 @@ const theme = extendTheme({
     NavTitle,
     NavPatientInfoBox,
     NavItems,
-    TopBarContainer
+    TopBarContainer,
+    PageHeader,
+    AppTitle,
+    PhoneLog,
+    CustomUnorderedList
   },
 })
 export default theme
