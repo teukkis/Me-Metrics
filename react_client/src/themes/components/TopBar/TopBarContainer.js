@@ -3,12 +3,12 @@ const TopBarContainer = {
   parts: ['container', 'hstack'],
   baseStyle: {
     container: {
-      h: '100%',
+      h: '80%',
       textAlign: 'center',
       w: "100%",
       color: '#000000',
       p: '10px',
-      bgGradient: "linear(to-r, gray.800, gray.900)",
+      bgGradient: "linear-gradient(101deg, rgba(218,218,218,1) 35%, rgba(255,241,241,1) 61%, rgba(164,161,161,1) 98%)",
     },
     hstack: {
       w: '100%',

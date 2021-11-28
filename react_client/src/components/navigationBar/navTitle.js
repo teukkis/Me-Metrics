@@ -6,7 +6,7 @@ const NavTitle = ({ title }) => {
   const styles = useMultiStyleConfig("NavTitle")
 
   return (
-      <Text sx={styles.linkText} >
+      <Text sx={styles.titleText} >
         {title}
       </Text>
   )

@@ -1,6 +1,9 @@
 import React from "react"
-import { ListItem, ListIcon, Box, UnorderedList, Divider, Text, useMultiStyleConfig } from "@chakra-ui/react"
-import { PhoneIcon, ChatIcon } from '@chakra-ui/icons'
+import { Box, Divider, Text, useMultiStyleConfig } from "@chakra-ui/react"
+import Card from "components/Card"
+import PhoneLogItem from "components/PhoneLogItem"
+import SimpleBar from 'simplebar-react'
+import "simplebar/src/simplebar.css"
 
 const PhoneLog = ({ data, title }) => {
 
@@ -11,21 +14,21 @@ const PhoneLog = ({ data, title }) => {
       return (
         <>
         <Divider/>
-        <ListItem>
-            <ListIcon as={line.type === 'CALL' ? PhoneIcon : ChatIcon} color="green.500" />
-          {line.text} -- {line.time}
-        </ListItem>
+        <PhoneLogItem line={line}/>
         </>
       )})
   }
 
   return (
-    <Box sx={styles.logContainer}>
-      <Text sx={styles.title}>{title}</Text>
-      <UnorderedList sx={styles.list} spacing={3}>
-        {data ? renderData() : <ListItem>No Data</ListItem>}
-      </UnorderedList>
-    </Box>
+    <Card>
+      <Box sx={styles.logContainer}>
+        <Text sx={styles.title}>{title}</Text>
+          <SimpleBar style={{ height: '300px' }}>
+            {data ? renderData() : <Text>No Data</Text>}
+            <Text> -- </Text>
+          </SimpleBar>
+        </Box>
+      </Card>
   )
 }
 

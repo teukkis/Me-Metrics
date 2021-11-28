@@ -11,7 +11,7 @@ const NavItems = () => {
 
       <Stack spacing={2}>
 
-        <NavTitle title={'Personal Data'}/>
+        <NavTitle title={'Personal'}/>
         <NavItem to={"/depression_anxiety_and_stress"}>DAaS</NavItem>
         <NavItem to={"/beck_depression_inventory"}>BDI</NavItem>
         <NavItem to={"/patient_health_questionnaire_9"}>PHQ-9</NavItem>

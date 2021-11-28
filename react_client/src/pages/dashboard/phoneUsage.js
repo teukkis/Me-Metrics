@@ -18,35 +18,40 @@ const PhoneUsage = () => {
       h="100%"
       templateRows="repeat(7, 1fr)"
       templateColumns="repeat(4, 1fr)"
-      gap={1}>
+      gap={5}>
+
       <GridItem rowSpan={1} colSpan={1}>
         <PageHeader header={"Phone Usage"}/>
       </GridItem>
-      <GridItem rowSpan={1} colSpan={3}>
+
+      <GridItem rowSpan={1} colSpan={1}>
         <DatePicker/>
       </GridItem>
-      <GridItem rowSpan={4} colSpan={1}>
-        <PieChart data={pieTestData}/>
+
+      <GridItem rowSpan={1} colSpan={2}>
+        <div></div>
       </GridItem>
+
       <GridItem rowSpan={4} colSpan={1}>
-        <Box w="300px" h="345px" borderRadius="md" m={0} bg="#888888">
+          <PieChart data={pieTestData}/>
+      </GridItem>
+
+      <GridItem rowSpan={4} colSpan={1}>
           <CustomUnorderedList data={listTestData} title={'Applications'}/>
-        </Box>
       </GridItem>
+
       <GridItem rowSpan={4} colSpan={1}>
-        <Box  w="300px" h="345px" borderRadius="md" m={0} bg="#888888">
           <CustomUnorderedList data={listTestData2} title={'Notifications'}/>
-        </Box>
       </GridItem>
-      <GridItem rowSpan={3} colSpan={1}>
-        <Box w="300px" h="345px" borderRadius="md" m={0} bg="#888888">
+
+      <GridItem rowSpan={4} colSpan={1}>
           <PhoneLog data={phonelogTestData} title={'Calls & Messages'}/>
-        </Box>
-        
       </GridItem>
-      <GridItem rowSpan={4} colSpan={3} paddingTop="40px">
-        <NotesBox/>
+
+      <GridItem rowSpan={2} colSpan={4}>
+        <NotesBox />
       </GridItem>
+
     </Grid>
   )
 

@@ -5,14 +5,13 @@ const NavItems = {
     box: {
       height: '80%',
       direction: 'row',
-      marginRight: '15px',
-      marginLeft: '15px',
+      marginLeft: '5px',
     },
     divider: {
       borderBottom: '2px',
-      borderColor: 'gray.400',
+      borderColor: 'gray.200',
       height: '1px',
-      color: 'gray.200',
+      color: 'gray.100',
       padding: '10px'
     }
   }

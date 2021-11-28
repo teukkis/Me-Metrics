@@ -1,18 +1,18 @@
 
 const NavPatientInfoBox = {
-  parts: ['text', 'box', 'image'],
+  parts: ['text', 'imageBox', 'image', 'container'],
   baseStyle: {
     text: {
       color: 'white'
     },
-    box: {
-      height: "20%",
-      display: "flex",
-      marginTop: '10px'
-
+    imageBox: {
+      boxSize: '60px',
     },
-    image: {
-      boxSize: '80%',
+    nameBox: {
+      fontSize: '16px'
+    },
+    container: {
+      marginTop: '10px'
     }
   }
 }

@@ -27,23 +27,23 @@ const App = () => {
         <Grid
           h="100vh"
           w="100vw"
-          templateRows="repeat(12, 1fr)"
+          templateRows="repeat(14, 1fr)"
           templateColumns="repeat(8, 1fr)"
-          bgGradient="linear(to-r, gray.100, gray.400)"
+          background="#eaeaea"
         >
-          <GridItem rowSpan={12} colSpan={1}>
+          <GridItem rowSpan={14} colSpan={1}>
             <Route path='/'>
               <NavBar/>
             </Route>
           </GridItem>
 
-          <GridItem bg="blue.500" rowSpan={1} colSpan={7}>
+          <GridItem rowSpan={1} colSpan={7}>
             <Route path='/'>
               <TopBar/>
             </Route>
           </GridItem>
 
-          <GridItem rowSpan={10} colSpan={7} padding="20px">
+          <GridItem rowSpan={14} colSpan={7} padding="20px">
 
             <Route exact path='/'>
               <Home/>
