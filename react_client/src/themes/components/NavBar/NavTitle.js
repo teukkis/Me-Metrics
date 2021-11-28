@@ -1,14 +1,14 @@
 
 const NavTitle = {
-  parts: ['linkText'],
+  parts: ['titleText'],
   baseStyle: {
-    linkText: {
-      fontFamily: "Ubuntu Mono",
-      fontSize: '1.5rem',
+    titleText: {
+      fontFamily: "Lato",
+      fontSize: '20px',
       fontWeight: "800",
       color: 'white',
       height: '30px',
-      paddingLeft: '35px',
+      paddingLeft: '5px',
       textAlign: 'left',
       paddingBottom: '40px',
     }

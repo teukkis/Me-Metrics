@@ -5,10 +5,10 @@ const AppTitle = {
   parts: ['title'],
   baseStyle: {
     title: {
-      fontFamily: "Ubuntu Mono",
+      fontFamily: "Bebas Neue",
       fontSize: '2.0rem',
       fontWeight: "800",
-      color: '#eeeeee'
+      color: '#444444'
     }
   }
 }

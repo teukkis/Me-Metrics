@@ -1,16 +1,17 @@
 
 const PageHeader = {
-  parts: ['headerText'],
+  parts: ['headerText', 'container'],
   baseStyle: {
     headerText: {
-      fontFamily: "Ubuntu Mono",
-      fontSize: '2.0rem',
+      fontFamily: "Lato",
+      fontSize: '32px',
       fontWeight: "800",
       color: '#444444',
-      height: '30px',
-      paddingLeft: '35px',
-      textAlign: 'left',
-      paddingBottom: '40px',
+      paddingRight: '15px',
+      paddingLeft: '15px'
+    },
+    container: {
+      bgGradient: "linear-gradient(101deg, rgba(242,125,83,1) 14%, rgba(254,187,87,1) 61%, rgba(255,234,195,1) 84%, rgba(78,255,93,1) 100%)",
     }
   }
 }

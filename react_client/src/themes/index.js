@@ -13,6 +13,10 @@ import PageHeader from 'themes/components/PageHeader'
 import AppTitle from 'themes/components/AppTitle'
 import PhoneLog from 'themes/components/PhoneLog'
 import CustomUnorderedList from 'themes/components/CustomUnorderedList'
+import Card from 'themes/components/Card'
+import NotesBox from 'themes/components/NotesBox'
+import PhoneLogItem from 'themes/components/PhoneLogItem'
+import CustomUnorderedListItem from 'themes/components/CustomUnorderedListItem'
 
 const theme = extendTheme({
   styles,
@@ -29,7 +33,11 @@ const theme = extendTheme({
     PageHeader,
     AppTitle,
     PhoneLog,
-    CustomUnorderedList
+    CustomUnorderedList,
+    Card,
+    NotesBox,
+    PhoneLogItem,
+    CustomUnorderedListItem
   },
 })
 export default theme
